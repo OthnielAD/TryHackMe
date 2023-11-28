@@ -44,11 +44,11 @@ After gaining access as user **"www-data"**, I initiated the privilege escalatio
 
 ![Alt text](img/dreaming14.png)
 
-Following the acquisition of Lucien's flag, I noticed that the **getDreams.py** file was present in the directory of the **"death"** user as well as in the **/opt** directory. Although I was able to open it in the latter location, I could not find a password there.
-
 ![Alt text](img/dreaming15.png)
 
 ![Alt text](img/dreaming16.png)
+
+Following the acquisition of Lucien's flag, I noticed that the **getDreams.py** file was present in the directory of the **"death"** user as well as in the **/opt** directory. Although I was able to open it in the latter location, I could not find a password there.
 
 ![Alt text](img/dreaming17.png)
 
