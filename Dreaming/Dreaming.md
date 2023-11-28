@@ -52,11 +52,15 @@ Following the acquisition of Lucien's flag, I noticed that the **getDreams.py** 
 
 ![Alt text](img/dreaming17.png)
 
+After obtaining the flag from Lucien, I decided to check the privileges associated with the user by running the **sudo -l** command. This command revealed to me that Lucien had the possibility of executing the **getDreams.py** file located in the directory of the user **"death"**, without providing a password. To further analyze privilege escalation opportunities, I downloaded the **linpeas.sh** script to the machine. This should allow me to get a more detailed view of the system's potential vulnerabilities and weak points.
+
 ![Alt text](img/dreaming18.png)
 
 ![Alt text](img/dreaming19.png)
 
 ![Alt text](img/dreaming20.png)
+
+In an incredible stroke of luck, I identified several interesting commands by running linpeas.sh. However, the one that particularly caught my attention was **"mysql"**, where I discovered the presence of a database named **"library"** containing a table called **"dreams"**.
 
 ![Alt text](img/dreaming21.png)
 
