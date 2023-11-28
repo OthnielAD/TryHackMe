@@ -31,12 +31,22 @@ Okay, I think searching subfolders led us to an important discovery. The **/app*
 
 ![Alt text](img/dreaming10.png)
 
-This python code takes as parameters the **IP, the port, the connection password and the path to reach the connection page**. I searched for the default password on pluck CMS and came across **password**. This python code gives us direct **p0wny shell** access to the server. You can possibly read up on the p0wny shell.
-
+This python code takes as parameters the **IP, the port, the connection password and the path to access the connection page**. I searched for default password on pluck CMS and came across **password**. This python code gives us direct **p0wny shell** access to the server and we access it with the link it generates.
 ![Alt text](img/dreaming11.png)
+
+To further investigate, I configured my machine to listen on port 9001. Next, I executed a reverse shell command via the P0wny shell.
 
 ![Alt text](img/dreaming12.png)
 
 ![Alt text](img/dreaming13.png)
 
+
 ![Alt text](img/dreaming14.png)
+
+![Alt text](img/dreaming15.png)
+
+![Alt text](img/dreaming16.png)
+
+![Alt text](img/dreaming17.png)
+
+![Alt text](img/dreaming18.png)
