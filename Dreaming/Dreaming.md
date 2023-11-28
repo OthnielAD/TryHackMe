@@ -51,3 +51,37 @@ After gaining access as user "www-data", I initiated the privilege escalation pr
 ![Alt text](img/dreaming17.png)
 
 ![Alt text](img/dreaming18.png)
+
+![Alt text](img/dreaming19.png)
+
+![Alt text](img/dreaming20.png)
+
+![Alt text](img/dreaming21.png)
+
+![Alt text](img/dreaming22.png)
+
+![Alt text](img/dreaming23.png)
+
+![Alt text](img/dreaming24.png)
+
+![Alt text](img/dreaming25.png)
+
+![Alt text](img/dreaming26.png)
+
+![Alt text](img/dreaming27.png)
+
+![Alt text](img/dreaming28.png)
+
+![Alt text](img/dreaming29.png)
+
+![Alt text](img/dreaming30.png)
+
+![Alt text](img/dreaming31.png)
+
+![Alt text](img/dreaming32.png)
+
+![Alt text](img/dreaming33.png)
+
+![Alt text](img/dreaming34.png)
+
+![Alt text](img/dreaming35.png)
