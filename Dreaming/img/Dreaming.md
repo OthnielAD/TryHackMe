@@ -1,2 +1,0 @@
-Salut tous. Comme vous pouvez le constater, c'est la première fois que je partage mon expérience d'une salle sur TryHackMe. J'espère que cela vous plaira.
- La présentation est basée sur la nouvelle salle "Dreaming" de TryHackMe de niveau "Facile" très passionnant.
