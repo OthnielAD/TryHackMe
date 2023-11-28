@@ -40,9 +40,11 @@ To further investigate, I configured my machine to listen on port 9001. Next, I 
 
 ![Alt text](img/dreaming13.png)
 
-After gaining access as user "www-data", I initiated the privilege escalation process. My first success was to locate the flag associated with the user "Lucien". After exploring various files, I finally accessed the /opt directory where two files contained the information necessary to recover Lucien's password. Using this data, I managed to connect as Lucien via the SSH service using the password I had discovered... Ouff.
+After gaining access as user **"www-data"**, I initiated the privilege escalation process. My first success was to locate the flag associated with the user **"Lucien"**. After exploring various files, I finally accessed the **/opt** directory where two files contained the information necessary to recover Lucien's password. Using this data, I managed to connect as Lucien via the SSH service using the password I had discovered... Ouff.
 
 ![Alt text](img/dreaming14.png)
+
+Following the acquisition of Lucien's flag, I noticed that the **getDreams.py** file was present in the directory of the **"death"** user as well as in the **/opt** directory. Although I was able to open it in the latter location, I could not find a password there.
 
 ![Alt text](img/dreaming15.png)
 
