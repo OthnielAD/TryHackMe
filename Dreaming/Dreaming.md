@@ -25,6 +25,12 @@ Okay, I think searching subfolders led us to an important discovery. The **/app*
 
 ![Alt text](img/dreaming8.png)
 
+**A file upload restriction bypass** vulnerability in **Pluck CMS version 4.7.13**, and with the **searchsploit** command I was able to find some python code that I copied to my working directory to exploit the vulnerability.
+
 ![Alt text](img/dreaming9.png)
 
 ![Alt text](img/dreaming10.png)
+
+![Alt text](img/dreaming11.png)
+
+![Alt text](img/dreaming12.png)
