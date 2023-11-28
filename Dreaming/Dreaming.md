@@ -82,6 +82,8 @@ Finally, I managed to log in as user *"death"* after retrieving his password fro
 
 ![Alt text](img/dreaming28.png)
 
+First, I explored the files present in the directory of the user *"morpheus"*. Subsequently, despite some uncertainty about the direction to take, one of my attempts fortunately revived my momentum.
+
 ![Alt text](img/dreaming29.png)
 
 ![Alt text](img/dreaming30.png)
