@@ -13,4 +13,8 @@ Here is what the website shows us deploy on port 80.
 
 ![Alt text](img/dreaming4.png)
 
+So I run a scan of the site's subfolders with gobuster.
+
 ![Alt text](img/dreaming5.png)
+
+![Alt text](img/dreaming6.png)
