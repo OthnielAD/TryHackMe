@@ -94,6 +94,8 @@ It turned out that the user *"death"* had the ability to modify the file **"shut
 
 ![Alt text](img/dreaming31.png)
 
+Following this observation, I quickly looked for Python code to establish a reverse shell. I then launched the listen on my machine, knowing that "death" had the possibility of compiling the "restore.py" file of "morpheus". And guess what? It functioned. Yeah...
+
 ![Alt text](img/dreaming32.png)
 
 ![Alt text](img/dreaming33.png)
@@ -103,3 +105,5 @@ It turned out that the user *"death"* had the ability to modify the file **"shut
 ![Alt text](img/dreaming35.png)
 
 ![Alt text](img/dreaming36.png)
+
+Together we assisted Sandman in restoring his kingdom. Congratulations and thank you for following me. It was a real pleasure.
