@@ -68,6 +68,8 @@ In an incredible stroke of luck, I identified several interesting commands by ru
 
 ![Alt text](img/dreaming23.png)
 
+After a quick re-analysis of the **/opt/getDreams.py file**, I understood more about its functionality. In the for loop, it extracts the data from each row of the two columns of the **"dreams"** table. Then it creates a shell command using this data and executes it using the **"subprocess"** library. The resulting output of each command is then displayed on the screen. This led me to realize that by inserting a command such as **"/bin/sh"** or setting up a r**everse shell command** and then running the file from the **"death"** user's directory, it would be possible to get a shell as user **"death"**.
+
 ![Alt text](img/dreaming24.png)
 
 ![Alt text](img/dreaming25.png)
