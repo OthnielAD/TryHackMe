@@ -17,4 +17,14 @@ So I run a scan of the site's subfolders with gobuster.
 
 ![Alt text](img/dreaming5.png)
 
+Okay, I think searching subfolders led us to an important discovery. The **/app** subfolder which in turn leads us to another website set up with the **pluck CMS**.
+
 ![Alt text](img/dreaming6.png)
+
+![Alt text](img/dreaming7.png)
+
+![Alt text](img/dreaming8.png)
+
+![Alt text](img/dreaming9.png)
+
+![Alt text](img/dreaming10.png)
