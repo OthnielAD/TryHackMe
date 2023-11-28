@@ -31,6 +31,12 @@ Okay, I think searching subfolders led us to an important discovery. The **/app*
 
 ![Alt text](img/dreaming10.png)
 
+This python code takes as parameters the **IP, the port, the connection password and the path to reach the connection page**. I searched for the default password on pluck CMS and came across **password**. This python code gives us direct **p0wny shell** access to the server. You can possibly read up on the p0wny shell.
+
 ![Alt text](img/dreaming11.png)
 
 ![Alt text](img/dreaming12.png)
+
+![Alt text](img/dreaming13.png)
+
+![Alt text](img/dreaming14.png)
