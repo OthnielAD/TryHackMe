@@ -86,7 +86,11 @@ First, I explored the files present in the directory of the user *"morpheus"*. S
 
 ![Alt text](img/dreaming29.png)
 
+I used the **"find"** command to find all files editable by user *"death"*.
+
 ![Alt text](img/dreaming30.png)
+
+It turned out that the user *"death"* had the ability to modify the file **"shutil.py"**, a module used to compile the restore.py program from *"morpheus"*.
 
 ![Alt text](img/dreaming31.png)
 
@@ -97,3 +101,5 @@ First, I explored the files present in the directory of the user *"morpheus"*. S
 ![Alt text](img/dreaming34.png)
 
 ![Alt text](img/dreaming35.png)
+
+![Alt text](img/dreaming36.png)
