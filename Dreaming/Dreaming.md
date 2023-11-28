@@ -40,7 +40,7 @@ To further investigate, I configured my machine to listen on port 9001. Next, I 
 
 ![Alt text](img/dreaming13.png)
 
-After gaining access as user **"www-data"**, I initiated the privilege escalation process. My first success was to locate the flag associated with the user **"Lucien"**. After exploring various files, I finally accessed the **/opt** directory where two files contained the information necessary to recover Lucien's password. Using this data, I managed to connect as Lucien via the SSH service using the password I had discovered... Ouff.
+After gaining access as user *"www-data"*, I initiated the privilege escalation process. My first success was to locate the flag associated with the user *"Lucien"*. After exploring various files, I finally accessed the **/opt** directory where two files contained the information necessary to recover Lucien's password. Using this data, I managed to connect as Lucien via the SSH service using the password I had discovered... Ouff.
 
 ![Alt text](img/dreaming14.png)
 
@@ -48,11 +48,11 @@ After gaining access as user **"www-data"**, I initiated the privilege escalatio
 
 ![Alt text](img/dreaming16.png)
 
-Following the acquisition of Lucien's flag, I noticed that the **getDreams.py** file was present in the directory of the **"death"** user as well as in the **/opt** directory. Although I was able to open it in the latter location, I could not find a password there.
+Following the acquisition of Lucien's flag, I noticed that the **getDreams.py** file was present in the directory of the *"death"* user as well as in the **/opt** directory. Although I was able to open it in the latter location, I could not find a password there.
 
 ![Alt text](img/dreaming17.png)
 
-After obtaining the flag from Lucien, I decided to check the privileges associated with the user by running the **sudo -l** command. This command revealed to me that Lucien had the possibility of executing the **getDreams.py** file located in the directory of the user **"death"**, without providing a password. To further analyze privilege escalation opportunities, I downloaded the **linpeas.sh** script to the machine. This should allow me to get a more detailed view of the system's potential vulnerabilities and weak points.
+After obtaining the flag from Lucien, I decided to check the privileges associated with the user by running the **sudo -l** command. This command revealed to me that Lucien had the possibility of executing the **getDreams.py** file located in the directory of the user *"death"*, without providing a password. To further analyze privilege escalation opportunities, I downloaded the **linpeas.sh** script to the machine. This should allow me to get a more detailed view of the system's potential vulnerabilities and weak points.
 
 ![Alt text](img/dreaming18.png)
 
@@ -68,13 +68,15 @@ In an incredible stroke of luck, I identified several interesting commands by ru
 
 ![Alt text](img/dreaming23.png)
 
-After a quick re-analysis of the **/opt/getDreams.py file**, I understood more about its functionality. In the for loop, it extracts the data from each row of the two columns of the **"dreams"** table. Then it creates a shell command using this data and executes it using the **"subprocess"** library. The resulting output of each command is then displayed on the screen. This led me to realize that by inserting a command such as **"/bin/sh"** or setting up a r**everse shell command** and then running the file from the **"death"** user's directory, it would be possible to get a shell as user **"death"**.
+After a quick re-analysis of the **/opt/getDreams.py file**, I understood more about its functionality. In the for loop, it extracts the data from each row of the two columns of the **"dreams"** table. Then it creates a shell command using this data and executes it using the **"subprocess"** library. The resulting output of each command is then displayed on the screen. This led me to realize that by inserting a command such as **"/bin/sh"** or setting up a **reverse shell command** and then running the file from the *"death"* user's directory, it would be possible to get a shell as user *"death"*.
 
 ![Alt text](img/dreaming24.png)
 
 ![Alt text](img/dreaming25.png)
 
 ![Alt text](img/dreaming26.png)
+
+Finally, I managed to log in as user *"death"* after retrieving his password from the getDreams.py file. Subsequently, I established an SSH connection using the credentials of *"death"*. However, switching to the *"morpheus"* user proved to be a complex challenge. Honestly, I spent a whole evening on this task without really succeeding, but this experience allowed me to acquire valuable knowledge.
 
 ![Alt text](img/dreaming27.png)
 
