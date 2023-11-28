@@ -9,4 +9,8 @@ The result shows that I have ports 22 and 80 open with the respective ssh and ht
 
 ![Alt text](img/dreaming3.png)
 
+Here is what the website shows us deploy on port 80.
+
 ![Alt text](img/dreaming4.png)
+
+![Alt text](img/dreaming5.png)
