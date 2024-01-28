@@ -61,3 +61,6 @@ Afterwards with nmap I quickly check if the specified port is open and if there 
 ![Alt text](img/whyhack28.png)
 Well I retest the url above and bam I have a return using 'https' and not 'http'
 ![Alt text](img/whyhack29.png)
+So I quickly run a command to get a shell on the server. Holà, it works.
+![Alt text](img/whyhack30.png)
+![Alt text](img/whyhack31.png)
