@@ -21,3 +21,5 @@ not having the connection information, I made a small enumeration of the subdire
 These directories don't give anything important so I register then I connect to the vulnerability search.
 ![Alt text](img/whyhack8.png)
 ![Alt text](img/whyhack9.png)
+After logging in, I saw the comment area so I tested a little alert with Javascript. Well no return, after a good hour without success, I decided to look at the register and login directories and bimm my alert ended up not working.
+It happened that the username space was vulnerable to the **xss attack** and when you put a bim comment the script takes effect.
