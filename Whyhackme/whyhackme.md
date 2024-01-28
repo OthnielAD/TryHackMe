@@ -43,3 +43,4 @@ Let's skip the privilege escalation. Let's display the privileges of user jack r
 ![Alt text](img/whyhack19.png)
 I downloaded linpeas.sh for more advanced enumeration but nothing good, just a password. Well we'll see.
 ![Alt text](img/whyhack20.png)
+![Alt text](img/whyhack21.png)
