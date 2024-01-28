@@ -38,3 +38,8 @@ I just put the code in the payload.js file then I started the python server to d
 ![Alt text](img/whyhack16.png)
 ![Alt text](img/whyhack17.png)
 ![Alt text](img/whyhack18.png)
+Here we are on the server and boom the user flag.
+Let's skip the privilege escalation. Let's display the privileges of user jack regarding the use of the sudo command. Well only iptables is targeted.
+![Alt text](img/whyhack19.png)
+I downloaded linpeas.sh for more advanced enumeration but nothing good, just a password. Well we'll see.
+![Alt text](img/whyhack20.png)
