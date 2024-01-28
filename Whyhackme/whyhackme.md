@@ -43,4 +43,5 @@ Let's skip the privilege escalation. Let's display the privileges of user jack r
 ![Alt text](img/whyhack19.png)
 I downloaded linpeas.sh for more advanced enumeration but nothing good, just a password. Well we'll see.
 ![Alt text](img/whyhack20.png)
+Well I fell into the /opt directory, I found a .pcap file and another text file. The text file makes it clear that the admin cannot delete the files located in the /usr/lib/cgi-bin/ directory even if he is user root, that he has temporarily blocked access to the backdoor using iptable rules.
 ![Alt text](img/whyhack21.png)
