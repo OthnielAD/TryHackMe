@@ -45,3 +45,12 @@ I downloaded linpeas.sh for more advanced enumeration but nothing good, just a p
 ![Alt text](img/whyhack20.png)
 Well I fell into the /opt directory, I found a .pcap file and another text file. The text file makes it clear that the admin cannot delete the files located in the /usr/lib/cgi-bin/ directory even if he is user root, that he has temporarily blocked access to the backdoor using iptable rules.
 ![Alt text](img/whyhack21.png)
+After downloading the pcap file with scp I take a look at it. It contains 100 packets and it is encrypted using the TLSv1.2 protocol.
+Only two IP addresses are communicating in this capture: 10.133.71.33 et 10.13.64.69
+![Alt text](img/whyhack22.png)
+![Alt text](img/whyhack23.png)
+Thanks to find I found the decryption key in /etc/apache2/certs/apache.key which I also downloaded. Then in wireshark, Edit-->Preferences-->Protocols-->TLS I import the key with IP 10.133.71.33 and port 41312, and I update wireshark. There I see http traffic.
+![Alt text](img/whyhack24.png)
+![Alt text](img/whyhack25.png)
+During these http communications we see that commands are sent to the server via port 41312 and the server returns the output of the commands.
+I quickly tested this url in my browser "http://<IP>:41312/cgi-bin/5UP3r53Cr37.py?key=48pfPHUrj4pmHzrC&iv=VZukhsCo8TlTXORN&cmd=id" no output, but let's remember that iptables rules were applied and since jack can use this command with sudo, let's create a new rule.
