@@ -22,4 +22,10 @@ These directories don't give anything important so I register then I connect to 
 ![Alt text](img/whyhack8.png)
 ![Alt text](img/whyhack9.png)
 After logging in, I saw the comment area so I tested a little alert with Javascript. Well no return, after a good hour without success, I decided to look at the register and login directories and bimm my alert ended up not working.
+
 It happened that the username space was vulnerable to the **xss attack** and when you put a bim comment the script takes effect.
+![Alt text](img/whyhack10.png)
+![Alt text](img/whyhack11.png)
+![Alt text](img/whyhack12.png)
+Well that's one step, now how to have a connection to the server. I remembered the message from the admin concerning the pass.txt file which was only accessible on **127.0.0.1/dir/pass.txt**. So I had to find a way to open the file from the website. So with a little digging on the internet I came across something interesting on the hacktricks website.
+![Alt text](img/whyhack13.png)
