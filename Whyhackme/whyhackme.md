@@ -53,4 +53,11 @@ Thanks to find I found the decryption key in /etc/apache2/certs/apache.key which
 ![Alt text](img/whyhack24.png)
 ![Alt text](img/whyhack25.png)
 During these http communications we see that commands are sent to the server via port 41312 and the server returns the output of the commands.
-I quickly tested this url in my browser "http://<IP>:41312/cgi-bin/5UP3r53Cr37.py?key=48pfPHUrj4pmHzrC&iv=VZukhsCo8TlTXORN&cmd=id" no output, but let's remember that iptables rules were applied and since jack can use this command with sudo, let's create a new rule.
+I quickly tested this url in my browser **"http://<IP>:41312/cgi-bin/5UP3r53Cr37.py?key=48pfPHUrj4pmHzrC&iv=VZukhsCo8TlTXORN&cmd=id"** no output, but let's remember that iptables rules were applied and since jack can use this command with sudo, let's create a new rule.
+![Alt text](img/whyhack26.png)
+![Alt text](img/whyhack27.png)
+The iptable command above creates a rule that accepts all input from port 41312.
+Afterwards with nmap I quickly check if the specified port is open and if there is a service running there. With the results obtained I have a website that works on the port
+![Alt text](img/whyhack28.png)
+Well I retest the url above and bam I have a return using 'https' and not 'http'
+![Alt text](img/whyhack29.png)
