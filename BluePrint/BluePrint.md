@@ -20,3 +20,8 @@ Grâce à cette reconnaissance on sait qu'il s'agit d'une machine qui tourne ave
 Sur le port 80, nous voilà face à une erreur 404 sautons sur celui du port 8080.
 
 ![Alt text](image/blueprint6.png)
+
+Okay, on a un indexage de fichier et en continuant plus loin on tombe sur un site web e-commerce.
+
+![Alt text](image/blueprint7.png)
+![Alt text](image/blueprint8.png)
