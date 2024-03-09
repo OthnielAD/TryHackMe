@@ -29,3 +29,7 @@ Okay, on a un indexage de fichier et en continuant plus loin on tombe sur un sit
 Dans le répertoire **docs** vous trouverez plein d'autres fichiers mais je pense que du côté de catalog on trouvera des trucs bien plus interessant.
 
 ![Alt text](image/blueprint9.png)
+
+Ne sachant pas ce que c'est **oscommerce** j'ai effectué une peite recherche et le premier article parle déjà d'exploit... Très interessant hihihi.
+
+![Alt text](image/blueprint10.png)
