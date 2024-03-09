@@ -62,3 +62,10 @@ J'ai compris que les hachages NTLM sont stockés dans la base de données SAM su
 ![Alt text](image/blueprint17.png)
 ![Alt text](image/blueprint18.png)
 ![Alt text](image/blueprint19.png)
+
+L'exécutable reg.exe m'a permi de sauvegarder une partie ou l'intégralité de la base de registre. Puis j'ai téléchargé ces fichiers sur ma propre machine et avec l'outil **samdump2** j'ai extraire les hashs LM et NTLM des credentials de connexion des comptes. Il m'a suffit de décrypter celà ici: https://crackstation.net/
+
+![Alt text](image/blueprint20.png)
+![Alt text](image/blueprint21.png)
+![Alt text](image/blueprint22.png)
+![Alt text](image/blueprint23.png)
