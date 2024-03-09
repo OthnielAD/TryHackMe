@@ -54,4 +54,12 @@ Ok, je me suis accroché rapidement au compte **Administator** et avec un peu de
 Ok, Let's go... allons à la recherche du hachage NTLM de l'utilisateur "Lab" déchiffré.
 
 ![Alt text](image/blueprint16.png)
+
+A cette étape étant un peu perdu, cet article m'a aidé : https://aas-s3curity.gitbook.io/cheatsheet/internalpentest/active-directory/post-exploitation/extracting-credentials/retrieve-windows-hashes pour l'extraction des credentials des users.
+
+J'ai compris que les hachages NTLM sont stockés dans la base de données SAM sur la machine ou dans la base de données NTDS du contrôleur de domaine. Il existe plusieurs méthodes pour extraire les credentials en voici un:
+
 ![Alt text](image/blueprint17.png)
+
+![Alt text](image/blueprint18.png)
+![Alt text](image/blueprint19.png)
