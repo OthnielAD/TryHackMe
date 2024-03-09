@@ -16,3 +16,7 @@ Sans plus tarder, lançons-nous dans cette aventure. Nous commençons par une re
 Grâce à cette reconnaissance on sait qu'il s'agit d'une machine qui tourne avec pour système d'exploitation Windows 7 et de plus on a plusieurs services en cours d'exécution. Explorons rapidement les services web sur les ports 80 et 8080
 
 ![Alt text](image/blueprint5.png)
+
+Sur le port 80, nous voilà face à une erreur 404 sautons sur celui du port 8080.
+
+![Alt text](image/blueprint6.png)
