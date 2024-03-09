@@ -25,3 +25,7 @@ Okay, on a un indexage de fichier et en continuant plus loin on tombe sur un sit
 
 ![Alt text](image/blueprint7.png)
 ![Alt text](image/blueprint8.png)
+
+Dans le répertoire **docs** vous trouverez plein d'autres fichiers mais je pense que du côté de catalog on trouvera des trucs bien plus interessant.
+
+![Alt text](image/blueprint9.png)
