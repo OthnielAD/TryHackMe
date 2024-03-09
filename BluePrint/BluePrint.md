@@ -33,3 +33,9 @@ Dans le répertoire **docs** vous trouverez plein d'autres fichiers mais je pens
 Ne sachant pas ce que c'est **oscommerce** j'ai effectué une peite recherche et le premier article parle déjà d'exploit... Très interessant hihihi.
 
 ![Alt text](image/blueprint10.png)
+![Alt text](image/blueprint11.png)
+
+Avec la commande **searchsploit** et **locate** bon j'ai le fichier d'exploit plus qu'à tester.\n
+NB: Si vous ne trouvez pas d'exploit avec l'outil searchsploit faites un tour sur internet et fouillez correctement vous allez tomber sur des trucs interessants.
+
+![Alt text](image/blueprint12.png)
