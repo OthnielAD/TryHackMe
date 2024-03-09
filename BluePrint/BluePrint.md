@@ -39,3 +39,5 @@ Avec la commande **searchsploit** et **locate** bon j'ai le fichier d'exploit pl
 NB: Si vous ne trouvez pas d'exploit avec l'outil searchsploit faites un tour sur internet et fouillez correctement vous allez tomber sur des trucs interessants.
 
 ![Alt text](image/blueprint12.png)
+
+Bon voilà, on a eu shell cool...\n
