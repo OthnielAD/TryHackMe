@@ -43,5 +43,9 @@ NB: Si vous ne trouvez pas d'exploit avec l'outil searchsploit faites un tour su
 
 Bon voilà, on a eu shell cool...
 
+Bon vite vite, voyons voir les différents comptes sur cette machine.
 ![Alt text](image/blueprint13.png)
+
+Ok, je me suis accroché rapidement au compte **Administator** et avec un peu de fouille dans tous les répertoires je suis tombé sur le fichier *root.txt.txt*.. good good.
 ![Alt text](image/blueprint14.png)
+![Alt text](image/blueprint15.png)
