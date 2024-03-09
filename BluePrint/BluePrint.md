@@ -50,3 +50,8 @@ Ok, je me suis accroché rapidement au compte **Administator** et avec un peu de
 
 ![Alt text](image/blueprint14.png)
 ![Alt text](image/blueprint15.png)
+
+Ok, Let's go... allons à la recherche du hachage NTLM de l'utilisateur "Lab" déchiffré.
+
+![Alt text](image/blueprint16.png)
+![Alt text](image/blueprint17.png)
