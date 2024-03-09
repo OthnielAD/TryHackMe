@@ -35,9 +35,13 @@ Ne sachant pas ce que c'est **oscommerce** j'ai effectué une peite recherche et
 ![Alt text](image/blueprint10.png)
 ![Alt text](image/blueprint11.png)
 
-Avec la commande **searchsploit** et **locate** bon j'ai le fichier d'exploit plus qu'à tester.\n
+Avec la commande **searchsploit** et **locate** bon j'ai le fichier d'exploit plus qu'à tester.
+
 NB: Si vous ne trouvez pas d'exploit avec l'outil searchsploit faites un tour sur internet et fouillez correctement vous allez tomber sur des trucs interessants.
 
 ![Alt text](image/blueprint12.png)
 
-Bon voilà, on a eu shell cool...\n
+Bon voilà, on a eu shell cool...
+
+![Alt text](image/blueprint13.png)
+![Alt text](image/blueprint14.png)
