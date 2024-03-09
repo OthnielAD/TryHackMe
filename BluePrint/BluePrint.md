@@ -67,5 +67,10 @@ L'exécutable reg.exe m'a permi de sauvegarder une partie ou l'intégralité de 
 
 ![Alt text](image/blueprint20.png)
 ![Alt text](image/blueprint21.png)
+
+Vous pouvez utiliser ce script: https://github.com/fortra/impacket/blob/master/examples/secretsdump.py au lieu de l'outil **samdump2** si l'installation n'a pas réussir.
+
 ![Alt text](image/blueprint22.png)
 ![Alt text](image/blueprint23.png)
+
+Bon voilà tout est bien qui finit bien à une prochaine fois...
