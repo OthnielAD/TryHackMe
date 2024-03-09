@@ -10,3 +10,5 @@ Cette salle est constitué de deux questions.
 Sans plus tarder, lançons-nous dans cette aventure.
 
 ![Alt text](image/blueprint2.png)
+![Alt text](image/blueprint3.png)
+![Alt text](image/blueprint4.png)
