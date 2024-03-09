@@ -73,4 +73,4 @@ Vous pouvez utiliser ce script: https://github.com/fortra/impacket/blob/master/e
 ![Alt text](image/blueprint22.png)
 ![Alt text](image/blueprint23.png)
 
-Bon voilà tout est bien qui finit bien à une prochaine fois...
+Bon voilà tout est bien qui finit bien à une prochaine fois...😆😆
